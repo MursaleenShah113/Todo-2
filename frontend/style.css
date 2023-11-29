@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    background-color: #6a89cc;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box {
+    width: 700px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+#item {
+    width: 100%;
+    padding: 5px;
+
+}
+
+#item {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    border: none;
+    outline:none;
+    box-shadow: 0px 0px 2px gray;
+
+}
+
+#to-do-box {
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+#to-do-box  li {
+
+    padding: 10px;
+    color: white;
+    background-color:#576574;
+    position: relative;
+    margin-top: 5px;
+    
+    
+    
+}
+
+#to-do-box  li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#tick
+{
+    text-decoration: line-through;
+    margin-left: 15px;
+    
+}
+
+.completed {
+    text-decoration: line-through;
+}
+.done {
+    text-decoration: line-through;
+    color: black;
+    background-color: yellow !important;
+}
